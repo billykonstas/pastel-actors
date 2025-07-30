@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-wesYellow text-wesBrown font-serif;
+}
+
+.wes-bg {
+  background-image: repeating-linear-gradient(
+          45deg,
+          #fdf6e3,
+          #fdf6e3 10px,
+          #f7d9b9 10px,
+          #f7d9b9 20px
+  );
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.wes-title {
+  font-family: 'Jost', sans-serif;
+  color: #5b4636;
+  -webkit-text-stroke: 0.5px #d8b88b;
+  text-shadow: 1px 1px 0 #d8b88b;
+}
