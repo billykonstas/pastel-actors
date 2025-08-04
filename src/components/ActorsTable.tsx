@@ -316,6 +316,13 @@ export default function ActorsTable() {
           </button>
         </div>
       )}
+      <div className="absolute right-10">
+        Made by{" "}
+        <a className="underline" href="https://billykonstas.com">
+          billykonstas
+        </a>{" "}
+        with ☕
+      </div>
     </div>
   );
 }
