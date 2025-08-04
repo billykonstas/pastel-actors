@@ -19,7 +19,6 @@ type Actor = {
   name: string;
   image: string | null;
   appearances: Appearance[];
-  totalMinutes: number;
 };
 
 type Movie = {
@@ -32,6 +31,7 @@ type Movie = {
     name: string;
     image: string | null;
     minutes: number;
+    character: string;
   }[];
 };
 
@@ -259,28 +259,39 @@ export default function ActorsTable() {
                       </span>
                     </td>
                     {movies.map((movie) => {
-                      const appeared = movie.actors.some((a) => a.id === actor.id);
                       return (
                         <td
                           key={movie.title + actor.id}
                           className="p-2 border border-wesBrown text-center"
                         >
-                          {appeared ? (
-                            actor.image ? (
-                              <img
-                                src={actor.image}
-                                alt={actor.name}
-                                title={`${actor.name} in ${movie.title} (${movie.year})`}
-                                className="w-10 h-10 rounded-full border-[2px] border-wesBrown object-cover mx-auto shadow-sm hover:scale-110 hover:rotate-2 transition-transform duration-200"
-                              />
-                            ) : (
-                              <div className="w-fit mx-auto">
-                                <ActorPlaceholder name={actor.name} actorId={actor.id} size={40} />
+                          {(() => {
+                            const actorInMovie = movie.actors.find((a) => a.id === actor.id);
+                            if (!actorInMovie) return null;
+
+                            return actor.image ? (
+                              <div className="relative group w-fit mx-auto">
+                                <img
+                                  src={actor.image}
+                                  alt={actor.name}
+                                  className="w-10 h-10 rounded-full border-[2px] border-wesBrown object-cover shadow-sm hover:scale-110 hover:rotate-2 transition-transform duration-200"
+                                />
+                                <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 bg-wesPink text-wesBrown font-bold text-base px-3 py-1 rounded border border-wesBrown shadow-sm pointer-events-none opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200 whitespace-nowrap z-20">
+                                  {actorInMovie.character}
+                                  <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-6 border-l-transparent border-r-6 border-r-transparent border-t-6 border-t-wesPink"></div>
+                                  <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-wesBrown -z-10 translate-y-[1px]"></div>
+                                </div>
                               </div>
-                            )
-                          ) : (
-                            ""
-                          )}
+                            ) : (
+                              <div className="relative group w-fit mx-auto">
+                                <ActorPlaceholder name={actor.name} actorId={actor.id} size={40} />
+                                <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 bg-wesPink text-wesBrown font-bold text-base px-3 py-1 rounded border border-wesBrown shadow-sm pointer-events-none opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-200 whitespace-nowrap z-20">
+                                  {actorInMovie.character}
+                                  <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-6 border-l-transparent border-r-6 border-r-transparent border-t-6 border-t-wesPink"></div>
+                                  <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-wesBrown -z-10 translate-y-[1px]"></div>
+                                </div>
+                              </div>
+                            );
+                          })()}
                         </td>
                       );
                     })}
