@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useDebounce } from "../hooks/useDebounce";
+import { useDevice, type DeviceInfo } from "../hooks/useDevice";
 import { ActorPlaceholder } from "./ActorPlaceholder";
 import { SkeletonRow } from "./Skeleton/SkeletonRow";
 import { SkeletonHeader } from "./Skeleton/SkeletonHeader";
 import AnimatedStars from "./AnimatedStars";
 import "../index.css";
-import NoResults from "./NoResutls";
 
 type Appearance = {
   title: string;
@@ -138,28 +138,31 @@ export default function ActorsTable() {
     }
   };
 
+  const { isMobile, isDesktop, isTablet, screenWidth }: DeviceInfo = useDevice();
+
   return (
     <div className="w-full py-10 px-6 bg-wesYellow relative text-wesBrown rounded-lg border-2 border-wesBrown shadow-lg ">
-      {/*TODO: Only in Mobile*/}
-      {/*<img*/}
-      {/*  src="/images/wes-head.png"*/}
-      {/*  alt="Wes Anderson Head"*/}
-      {/*  width={80}*/}
-      {/*  height={80}*/}
-      {/*  className="mx-auto mb-2"*/}
-      {/*/>*/}
+      {(isMobile || isTablet) && (
+        <img
+          src="/images/wes-head.png"
+          alt="Wes Anderson Head"
+          width={80}
+          height={80}
+          className="mx-auto mb-2"
+        />
+      )}
       <h1 className="text-4xl font-bold text-wesBrown text-center wes-title">
         The Complete Index of Wes Anderson’s Cast
       </h1>
-
-      {/*TODO: Hidden Wes only for desktop*/}
-      <img
-        height={400}
-        width={150}
-        className="absolute right-80 top-52 z-0 hover:top-32 transition-all"
-        src="/images/wes.png"
-        alt="Wes Anderson Cameo"
-      />
+      {isDesktop && screenWidth > 1350 && (
+        <img
+          height={400}
+          width={150}
+          className="absolute right-80 top-52 z-0 hover:top-32 transition-all"
+          src="/images/wes.png"
+          alt="Wes Anderson Cameo"
+        />
+      )}
       {/*Animated Stars*/}
       <div className="flex justify-center my-4">
         <AnimatedStars autoPlayOnLoad={!loading} />
