@@ -152,7 +152,7 @@ export default function ActorsTable() {
         />
       )}
       <h1 className="text-4xl font-bold text-wesBrown text-center wes-title">
-        The Complete Index of Wes Anderson’s Cast
+        Pastel Actors: The Wes Anderson Cast Database
       </h1>
       {isDesktop && screenWidth > 1350 && (
         <img
