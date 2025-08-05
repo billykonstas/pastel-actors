@@ -26,6 +26,8 @@ type Movie = {
   year: number;
   runtime: number;
   poster: string;
+  rating: number;
+  overview: string;
   actors: {
     id: number;
     name: string;
@@ -154,11 +156,11 @@ export default function ActorsTable() {
       <h1 className="text-4xl font-bold text-wesBrown text-center wes-title">
         Pastel Actors: The Wes Anderson Cast Database
       </h1>
-      {isDesktop && screenWidth > 1350 && (
+      {isDesktop && screenWidth > 1350 && !selectedMovie && (
         <img
           height={400}
           width={150}
-          className="absolute right-80 top-52 z-0 hover:top-32 transition-all"
+          className="absolute right-80 top-32 z-0 hover:top-24 transition-all"
           src="/images/wes.png"
           alt="Wes Anderson Cameo"
         />
@@ -167,6 +169,7 @@ export default function ActorsTable() {
       <div className="flex justify-center my-4">
         <AnimatedStars autoPlayOnLoad={!loading} />
       </div>
+
       {/* Search */}
       <div className="mb-4 w-64 mx-auto">
         <input
@@ -177,21 +180,36 @@ export default function ActorsTable() {
           className="px-3 py-2 border border-wesBrown rounded w-full"
         />
       </div>
-      {/* Movie filter info */}
-      <div className="flex justify-center items-center sm:flex-row flex-col gap-4 mb-4 text-center sm:h-[38px]">
-        <span className="text-xl font-semibold h-min">
-          {selectedMovie ? `Filtering actors by: ${selectedMovie}` : "Showing all actors"}
-        </span>
-        {selectedMovie && (
-          <button
-            className="px-3 py-1 text-xl font-semibold bg-wesPink border border-wesBrown rounded"
-            onClick={() => setSelectedMovie(null)}
-          >
-            Clear Filter
-          </button>
-        )}
-      </div>
-
+      {selectedMovie &&
+        (() => {
+          const movie = movies.find((m) => m.title === selectedMovie);
+          if (!movie) return null;
+          return (
+            <div className="relative mb-6 max-w-3xl mx-auto bg-wesPeach border border-wesBrown rounded-lg p-4 shadow-md">
+              <button
+                onClick={() => setSelectedMovie(null)}
+                className="absolute top-4 right-4 h-auto text-wesBrown hover:text-wesRed text-base font-bold leading-none"
+                aria-label="Close"
+              >
+                X
+              </button>
+              <div className="flex flex-col items-center sm:flex-row gap-4">
+                <img
+                  src={movie.poster}
+                  alt={movie.title}
+                  className="w-24 h-auto border border-wesBrown rounded shadow-sm"
+                />
+                <div>
+                  <h2 className="text-2xl font-bold">
+                    {movie.title} ({movie.year})
+                  </h2>
+                  <p className="text-lg">⭐ {movie.rating} / 10</p>
+                  <p className="mt-2 text-sm leading-snug">{movie.overview}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })()}
       <div className="overflow-x-auto w-full">
         <table className="w-full border z-20 relative bg-wesYellow border-wesBrown text-xl">
           <thead>
