@@ -47,6 +47,8 @@ async function generateData() {
       title: movie.title,
       year: parseInt(movie.release_date),
       runtime: movie.runtime,
+      overview: movie.overview,
+      rating: movie.vote_average.toFixed(1),
       poster: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
       actors: [],
     };

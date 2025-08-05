@@ -3,6 +3,8 @@
     "title": "The Phoenician Scheme",
     "year": 2025,
     "runtime": 102,
+    "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists, and determined assassins.",
+    "rating": "6.7",
     "poster": "https://image.tmdb.org/t/p/w500/jtEqpy0K1iVuCebRwWqT6BZ6jLN.jpg",
     "actors": [
       {
@@ -33,7 +35,7 @@
         "id": 31,
         "name": "Tom Hanks",
         "character": "Leland",
-        "image": "https://image.tmdb.org/t/p/w300/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg"
       },
       {
         "id": 17419,
@@ -57,7 +59,7 @@
         "id": 71580,
         "name": "Benedict Cumberbatch",
         "character": "Uncle Nubar",
-        "image": "https://image.tmdb.org/t/p/w300/fBEucxECxGLKVHBznO0qHtCGiMO.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
       },
       {
         "id": 2954,
@@ -69,7 +71,7 @@
         "id": 1245,
         "name": "Scarlett Johansson",
         "character": "Cousin Hilda",
-        "image": "https://image.tmdb.org/t/p/w300/zMHSGCTewNp2M3JbqAlu8dYdw9U.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg"
       },
       {
         "id": 36669,
@@ -105,7 +107,7 @@
         "id": 4273,
         "name": "Charlotte Gainsbourg",
         "character": "1st Wife",
-        "image": "https://image.tmdb.org/t/p/w300/pQAhxlNnRzprF9aK0HZBBNVJcGj.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/54RgTfNxhiTsaZfmCXWYLeZgMlC.jpg"
       },
       {
         "id": 1164,
@@ -689,6 +691,8 @@
     "title": "Asteroid City",
     "year": 2023,
     "runtime": 105,
+    "overview": "In an American desert town circa 1955, the itinerary of a Junior Stargazer/Space Cadet convention is spectacularly disrupted by world-changing events.",
+    "rating": "6.5",
     "poster": "https://image.tmdb.org/t/p/w500/rAkz95CREc3A1qTnwlSQ0jh8Zw8.jpg",
     "actors": [
       {
@@ -701,13 +705,13 @@
         "id": 1245,
         "name": "Scarlett Johansson",
         "character": "Midge Campbell",
-        "image": "https://image.tmdb.org/t/p/w300/zMHSGCTewNp2M3JbqAlu8dYdw9U.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg"
       },
       {
         "id": 31,
         "name": "Tom Hanks",
         "character": "Stanley Zak",
-        "image": "https://image.tmdb.org/t/p/w300/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg"
       },
       {
         "id": 2954,
@@ -773,7 +777,7 @@
         "id": 4495,
         "name": "Steve Carell",
         "character": "The Motel Manager",
-        "image": "https://image.tmdb.org/t/p/w300/l2eaAN2w21QZBKxOLbhxHOquQOk.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/ULqKHMosznI7U2JyRZYMvSxUvq.jpg"
       },
       {
         "id": 2876,
@@ -1639,6 +1643,8 @@
     "title": "The French Dispatch",
     "year": 2021,
     "runtime": 108,
+    "overview": "The staff of an American magazine based in France puts out its last issue, with stories featuring an artist sentenced to life imprisonment, student riots, and a kidnapping resolved by a chef.",
+    "rating": "7.0",
     "poster": "https://image.tmdb.org/t/p/w500/6JXR3KJH5roiBCjWFt09xfgxHZc.jpg",
     "actors": [
       {
@@ -1747,7 +1753,7 @@
         "id": 19511,
         "name": "Larry Pine",
         "character": "Chief Magistrate",
-        "image": "https://image.tmdb.org/t/p/w300/wJRarkKBRVxDzKIB5O22tLd3wAT.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/nsMlfqaSRFarvn5K8EcCyKZjPeB.jpg"
       },
       {
         "id": 1571182,
@@ -3633,6 +3639,8 @@
     "title": "Isle of Dogs",
     "year": 2018,
     "runtime": 101,
+    "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island used as a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.",
+    "rating": "7.8",
     "poster": "https://image.tmdb.org/t/p/w500/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg",
     "actors": [
       {
@@ -3729,7 +3737,7 @@
         "id": 1245,
         "name": "Scarlett Johansson",
         "character": "Nutmeg (voice)",
-        "image": "https://image.tmdb.org/t/p/w300/zMHSGCTewNp2M3JbqAlu8dYdw9U.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg"
       },
       {
         "id": 3063,
@@ -3935,6 +3943,8 @@
     "title": "The Grand Budapest Hotel",
     "year": 2014,
     "runtime": 100,
+    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "rating": "8.0",
     "poster": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
     "actors": [
       {
@@ -4043,7 +4053,7 @@
         "id": 19511,
         "name": "Larry Pine",
         "character": "Mr. Mosher",
-        "image": "https://image.tmdb.org/t/p/w300/wJRarkKBRVxDzKIB5O22tLd3wAT.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/nsMlfqaSRFarvn5K8EcCyKZjPeB.jpg"
       },
       {
         "id": 76340,
@@ -4531,6 +4541,8 @@
     "title": "Moonrise Kingdom",
     "year": 2012,
     "runtime": 94,
+    "overview": "Set on an island off the coast of New England in the summer of 1965, Moonrise Kingdom tells the story of two twelve-year-olds who fall in love, make a secret pact, and run away together into the wilderness. As various authorities try to hunt them down, a violent storm is brewing off-shore – and the peaceful island community is turned upside down in more ways than anyone can handle.",
+    "rating": "7.7",
     "poster": "https://image.tmdb.org/t/p/w500/y4SXcbNl6CEF2t36icuzuBioj7K.jpg",
     "actors": [
       {
@@ -4651,7 +4663,7 @@
         "id": 19511,
         "name": "Larry Pine",
         "character": "Mr. Billingsley",
-        "image": "https://image.tmdb.org/t/p/w300/wJRarkKBRVxDzKIB5O22tLd3wAT.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/nsMlfqaSRFarvn5K8EcCyKZjPeB.jpg"
       },
       {
         "id": 2029514,
@@ -4881,6 +4893,8 @@
     "title": "Fantastic Mr. Fox",
     "year": 2009,
     "runtime": 87,
+    "overview": "The Fantastic Mr. Fox, bored with his current life, plans a heist against the three local farmers. The farmers, tired of sharing their chickens with the sly fox, seek revenge against him and his family.",
+    "rating": "7.8",
     "poster": "https://image.tmdb.org/t/p/w500/njbTizADSZg4PqeyJdDzZGooikv.jpg",
     "actors": [
       {
@@ -5069,6 +5083,8 @@
     "title": "The Darjeeling Limited",
     "year": 2007,
     "runtime": 92,
+    "overview": "Three American brothers who have not spoken to each other in a year set off on a train voyage across India with a plan to find themselves and bond with each other -- to become brothers again like they used to be. Their \"spiritual quest\", however, veers rapidly off-course (due to events involving over-the-counter pain killers, Indian cough syrup, and pepper spray).",
+    "rating": "7.2",
     "poster": "https://image.tmdb.org/t/p/w500/oSW5OVXTulaIXcoNwJAp5YEKpbP.jpg",
     "actors": [
       {
@@ -5449,6 +5465,8 @@
     "title": "The Life Aquatic with Steve Zissou",
     "year": 2004,
     "runtime": 119,
+    "overview": "Renowned oceanographer Steve Zissou has sworn vengeance upon the rare shark that devoured a member of his crew. In addition to his regular team, he is joined on his boat by Ned, a man who believes Zissou to be his father, and Jane, a journalist pregnant by a married man. They travel the sea, all too often running into pirates and, perhaps more traumatically, various figures from Zissou's past, including his estranged wife, Eleanor.",
+    "rating": "7.1",
     "poster": "https://image.tmdb.org/t/p/w500/qZoFLNBC78jzboWeDH6Ha0qavF2.jpg",
     "actors": [
       {
@@ -5913,6 +5931,8 @@
     "title": "The Royal Tenenbaums",
     "year": 2001,
     "runtime": 110,
+    "overview": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generally considered to be their father's fault. \"The Royal Tenenbaums\" is the story of the family's sudden, unexpected reunion one recent winter.",
+    "rating": "7.5",
     "poster": "https://image.tmdb.org/t/p/w500/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
     "actors": [
       {
@@ -6027,7 +6047,7 @@
         "id": 19511,
         "name": "Larry Pine",
         "character": "Peter Bradley",
-        "image": "https://image.tmdb.org/t/p/w300/wJRarkKBRVxDzKIB5O22tLd3wAT.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/nsMlfqaSRFarvn5K8EcCyKZjPeB.jpg"
       },
       {
         "id": 2086089,
@@ -6141,7 +6161,7 @@
         "id": 21042,
         "name": "Ebon Moss-Bachrach",
         "character": "Frederick - Bellboy",
-        "image": "https://image.tmdb.org/t/p/w300/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+        "image": "https://image.tmdb.org/t/p/w300/bpynXAyo75U5c3nkPHAEGv37OXK.jpg"
       },
       {
         "id": 1392597,
@@ -6299,6 +6319,8 @@
     "title": "Rushmore",
     "year": 1998,
     "runtime": 93,
+    "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+    "rating": "7.4",
     "poster": "https://image.tmdb.org/t/p/w500/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg",
     "actors": [
       {
@@ -6625,6 +6647,8 @@
     "title": "Bottle Rocket",
     "year": 1996,
     "runtime": 91,
+    "overview": "Upon his release from a mental hospital following a nervous breakdown, the directionless Anthony joins his friend Dignan, who seems far less sane than the former. Dignan has hatched a harebrained scheme for an as-yet-unspecified crime spree that somehow involves his former boss, the (supposedly) legendary Mr. Henry.",
+    "rating": "6.7",
     "poster": "https://image.tmdb.org/t/p/w500/6E7mJ5wpzTFbYFbJvTzzZ8Til9C.jpg",
     "actors": [
       {
