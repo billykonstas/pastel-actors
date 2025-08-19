@@ -5,6 +5,7 @@ import { ActorPlaceholder } from "./ActorPlaceholder";
 import { SkeletonRow } from "./Skeleton/SkeletonRow";
 import { SkeletonHeader } from "./Skeleton/SkeletonHeader";
 import AnimatedStars from "./AnimatedStars";
+import { Logo } from "./Logo";
 import "../index.css";
 
 type Appearance = {
@@ -153,9 +154,12 @@ export default function ActorsTable() {
           className="mx-auto mb-2"
         />
       )}
-      <h1 className="text-4xl font-bold text-wesBrown text-center wes-title">
-        Pastel Actors: The Wes Anderson Cast Database
-      </h1>
+      <div className="flex justify-center items-center gap-6">
+        <Logo width={70} height={70} />
+        <h1 className="text-4xl font-bold text-wesBrown w-fit h-fit wes-title">
+          Pastel Actors: The Wes Anderson Cast Database
+        </h1>
+      </div>
       {isDesktop && screenWidth > 1350 && !selectedMovie && (
         <img
           height={400}
